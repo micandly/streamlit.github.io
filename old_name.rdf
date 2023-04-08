@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:eventNs="http://geocode.org/Event/"
+   xmlns:placeNs="http://geocode.org/Place/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://geocode/Place/兰州">
+    <placeNs:lon rdf:datatype="http://www.w3.org/2001/XMLSchema#double">103.73</placeNs:lon>
+    <placeNs:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">36.03</placeNs:lat>
+    <placeNs:fname rdf:resource="http://geocode/Event/7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://geocode/Event/4">
+    <eventNs:fname>豳州</eventNs:fname>
+    <eventNs:stime rdf:datatype="http://www.w3.org/2001/XMLSchema#double">nan</eventNs:stime>
+    <eventNs:etime>553</eventNs:etime>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://geocode/Event/1">
+    <eventNs:fname>苦县</eventNs:fname>
+    <eventNs:stime rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-770.0</eventNs:stime>
+    <eventNs:etime>-221</eventNs:etime>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://geocode/Event/3.0">
+    <eventNs:fname>仙源</eventNs:fname>
+    <eventNs:stime rdf:datatype="http://www.w3.org/2001/XMLSchema#double">nan</eventNs:stime>
+    <eventNs:etime rdf:datatype="http://www.w3.org/2001/XMLSchema#double">nan</eventNs:etime>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://geocode/Place/宁县">
+    <placeNs:lon rdf:datatype="http://www.w3.org/2001/XMLSchema#double">107.94</placeNs:lon>
+    <placeNs:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35.17</placeNs:lat>
+    <placeNs:fname rdf:resource="http://geocode/Event/4"/>
+    <placeNs:fname rdf:resource="http://geocode/Event/5.0"/>
+    <placeNs:fname rdf:resource="http://geocode/Event/6.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://geocode/Place/鹿邑县">
+    <placeNs:lon rdf:datatype="http://www.w3.org/2001/XMLSchema#double">115.48</placeNs:lon>
+    <placeNs:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">33.87</placeNs:lat>
+    <placeNs:fname rdf:resource="http://geocode/Event/1"/>
+    <placeNs:fname rdf:resource="http://geocode/Event/2.0"/>
+    <placeNs:fname rdf:resource="http://geocode/Event/3.0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://geocode/Event/5.0">
+    <eventNs:fname>宁州</eventNs:fname>
+    <eventNs:stime rdf:datatype="http://www.w3.org/2001/XMLSchema#double">553.0</eventNs:stime>
+    <eventNs:etime rdf:datatype="http://www.w3.org/2001/XMLSchema#double">605.0</eventNs:etime>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://geocode/Event/6.0">
+    <eventNs:fname>北地郡</eventNs:fname>
+    <eventNs:stime rdf:datatype="http://www.w3.org/2001/XMLSchema#double">605.0</eventNs:stime>
+    <eventNs:etime rdf:datatype="http://www.w3.org/2001/XMLSchema#double">617.0</eventNs:etime>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://geocode/Event/7">
+    <eventNs:fname>金城</eventNs:fname>
+    <eventNs:stime rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-86.0</eventNs:stime>
+    <eventNs:etime>619</eventNs:etime>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://geocode/Event/2.0">
+    <eventNs:fname>鸣鹿</eventNs:fname>
+    <eventNs:stime rdf:datatype="http://www.w3.org/2001/XMLSchema#double">nan</eventNs:stime>
+    <eventNs:etime rdf:datatype="http://www.w3.org/2001/XMLSchema#double">nan</eventNs:etime>
+  </rdf:Description>
+</rdf:RDF>
