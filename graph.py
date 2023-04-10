@@ -1,4 +1,4 @@
-import streamlit
+
 from streamlit_agraph import agraph, Node, Edge, Config
 nodes = []
 edges = []
@@ -8,12 +8,12 @@ nodes.append( Node(id="Spiderman",
                     label="Peter Parker", 
                     size=25, 
                     shape="circularImage",
-                    image="top_spiderman.png") 
+                    image="http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_captainmarvel.png") 
             ) # includes **kwargs
 nodes.append( Node(id="Captain_Marvel", 
                     size=25,
                     shape="circularImage",
-                    image="top_captainmarvel.png") 
+                    image="http://marvel-force-chart.surge.sh/marvel_force_chart_img/top_captainmarvel.png") 
             )
 edges.append( Edge(source="Captain_Marvel", 
                     label="friend_of", 

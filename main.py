@@ -30,18 +30,17 @@ with st.sidebar:
                                                      'padding-left': '30px'}},
                              key="1")
 
-if tabs =='地图可视化':
-    st.title("地图可视化")
-    import map_pydeck
-    
-elif tabs == '知识图谱':
-    st.title("知识图谱")
-    import graph
-    
-    
-elif tabs == '时间轴':
-    st.title("时间轴")
-    import timeline
+TabName = ['地图可视化', '知识图谱', '时间轴']
+while tabs in TabName:
+    if tabs =='地图可视化':
+        st.title("地图可视化")
+        import map_pydeck
+    elif tabs == '知识图谱':
+        st.title("知识图谱")
+        import graph  
+    elif tabs == '时间轴':
+        st.title("时间轴")
+        import timeline
 # from streamlit_option_menu import option_menu
 # selected2 = option_menu(None, ["Home", "Upload", "Tasks", 'Settings'], 
 #     icons=['house', 'cloud-upload', "list-task", 'gear'], 
